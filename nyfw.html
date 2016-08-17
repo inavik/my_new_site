@@ -3,36 +3,59 @@
 <head>
   <meta charset="utf-8">
   <title>New York Fashion Week</title>
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet"  href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 </head>
 
 <body>
-  <header>
-  <br>
-    <nav>
-      <a href="index.html">Home<a/>
-      <a href="falltrends.html">Fall Trends</a>
-      <a href="nyfw.html">NYFW</a>
-      <a href="Schedule.html">Schedule</a>
-      <a href="http://newyorkfashionweeklive.com/" target="_blank">Watch NYFW Live</a>
-    </nav>
-    <h1>New York Fashion Week</h2>
+    <header>
+    <br>
+    <div id="webpagetitle">
+      <h1>WeInFashion</h1>
+    </div>
+      <nav class="nav">
+        <a href="index.html">HOME<a/>
+        <a href="falltrends.html">FALL TRENDS</a>
+        <a href="nyfw.html">NYFW</a>
+        <a href="Schedule.html">SCHEDULE</a>
+        <a href="http://newyorkfashionweeklive.com/" target="_blank">NYFW LIVE</a>
+      </nav>
+<hr>
+    <h1>New York Fashion Week</h1>
       <p>All the details you need for NYFW. Feel free to leave a comment!</p>
   </header>
-
+  <br>
   <section id="content">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14623.05462056897!2d-73.9786054588145!3d40.77726392537269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C+New+York%2C+NY!5e0!3m2!1sen!2sus!4v1470246460701"
-    width="400" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </section>
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14623.05462056897!2d-73.9786054588145!3d40.77726392537269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C+New+York%2C+NY!5e0!3m2!1sen!2sus!4v1470246460701"
+      width="400" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
 
-  <form action="#" method="post">
-    <label for="fullname">Name</label>
-    <input type="text" id="fullname" name="fullname" placeholder="your name" required>
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="your email"  required>
-    <label for="message">Message</label>
-    <textarea id="message" name="message" rows="10">
-    </textarea>
-    <input type="submit" value="send">
-  </form>
+    <div>
+    <h2>Venues</h2>
+    <p><strong>Skylight at Moynihan Station</strong><br>
+      360 West 33rd Street, New York, NY</p>
+    <p><strong>MADE at Milk Studios</strong><br>
+      450 West 15th Street, New York, NY</p>
+    <p><strong>Skylight Clarkson Sq</strong><br>
+      558 Washington Street, New York, NY</p>
+  </div>
+</section>
+
+<div class="comment-box">
+  <div><h2 style="text-decoration:none;">Leave a comment</h2>
+    <form action="#" method="post">
+      <label for="fullname">Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="your name" required><br>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="your email"  required><br>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="10">
+      </textarea>
+      <input type="submit" value="send">
+    </form>
+</div>
+</div>
 </body>
 </html>

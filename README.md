@@ -1,1 +1,1 @@
-A beginner's guide to programming.
+Fashion guide for everyone.

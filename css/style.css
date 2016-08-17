@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import 'https://fonts.googleapis.com/css?family=Tangerine';
+
+p {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+
+em  {
+  font-family: helvetica, arial, sans-serif;
+}
+
+/*heading*/
+h1  {
+  font: normal 36px helvetica, arial, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: helvetica, arial, sans-serif;
+  font-weight:normal;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3  {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Links*/
+ a:link, a:visited {
+  color: gray;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+  font-family: helvetica, arial, sans-serif;
+  padding-right: 30px;
+}
+
+a:hover {
+  color: #0289c9;
+}
+ /* Class Selectors */
+.comment-box {
+text-align: center;
+display: inline;
+}
+
+.nav {
+  text-align: center;
+}
+
+.videowrapper {
+  text-align: center;
+}
+
+.falltrends {
+  text-align: center;
+}
+
+
+/*Descendent Selectors & ID Selectors */
+#master li {
+  display: block;
+  list-style-type: none;
+  font-size: 16px;
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+}
+
+#webpagetitle h1 {
+  font: bold 70px/32px 'Tangerine', cursive;
+}
+
+#webpagetitle {
+  background-color: #83d5ef;
+}
